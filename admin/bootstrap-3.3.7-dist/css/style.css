@@ -1,0 +1,140 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: lightgrey;
+}
+
+span{
+    font-weight: bold;
+    color: limegreen;
+}
+
+.fullbody{
+    min-height: 100%;
+    position: relative;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+.navbar-brand img{
+    margin-top: -9px;
+    background-color: white;
+    width: 32px;
+}
+
+.navbar-brand *{
+    color: white;
+}
+
+#clock, #date{
+    color: darkgrey;
+    margin-left: 10px;
+}
+
+#clock{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+#date{
+    margin-bottom: 0px;
+}
+
+.jumbotron{
+    height: 160px;
+    overflow: hidden;
+}
+
+.jumbotron .details{
+    position: absolute;
+    color: white;
+}
+
+.jumbotron img{
+    width: 100%;
+}
+
+section .container{
+    width: 100%;
+}
+
+.w input{
+    width: 65%;
+}
+
+.other{
+    margin-right: -10px;
+}
+
+.col-md-3 img{
+    margin-top: 20px;
+}
+
+
+footer{
+    height: 50px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width:660px){
+    .navbar-brand{
+        font-size: 15px;
+    }
+    
+    .jumbotron h2{
+        font-size: 25px;
+    }
+    
+    .jumbotron p{
+        font-size: 15px;
+    }
+    
+    footer{
+        letter-spacing: 0px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width:350px){
+    .navbar-brand{
+        font-size: 9px;
+    }
+    
+    .navbar-brand img{
+        width: 15px;
+        margin-top: -4px;
+    }
+    
+    .jumbotron h2{
+        font-size: 20px;
+    }
+    
+    .jumbotron p{
+        font-size: 15px;
+    }
+    
+    footer{
+        letter-spacing: 0px;
+        font-size: 8px;
+        word-spacing: 0px;
+    }
+}
